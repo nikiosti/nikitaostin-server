@@ -1,0 +1,6 @@
+{
+  "watch": ["api"],
+  "ext": "ts",
+  "ignore": ["dist"],
+  "exec": "npx tsx api/index.ts"
+}

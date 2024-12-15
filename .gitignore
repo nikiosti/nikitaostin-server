@@ -1,0 +1,6 @@
+.DS_Store
+/uploads
+/node_modules
+/prisma/migrations*
+.env*
+.vercel
