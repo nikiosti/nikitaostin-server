@@ -10,7 +10,8 @@ export const getOrder = async (ctx: Context) => {
     const orders = await prisma.order.findMany()
     ctx.body = orders
     ctx.status = 200
-  } catch {
+  } catch (e) {
+    console.log(e)
     ctx.status = 500
   }
 }
