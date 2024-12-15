@@ -6,7 +6,7 @@ import serve from 'koa-static'
 
 import dotenv from 'dotenv'
 
-import { order } from './routes/order/router'
+import { order } from './routes/order/router.js'
 
 dotenv.config()
 

@@ -1,4 +1,4 @@
-import { createOrder, getOrder } from '../../controllers/order/controller'
+import { createOrder, getOrder } from '../../controllers/order/controller.js'
 import { api } from '../api'
 
 export const order = api

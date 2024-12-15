@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'
 import { Order, PrismaClient } from '@prisma/client'
-import { Context } from '../../../types/Context'
+import { Context } from '../../../types/Context.js'
 
 dotenv.config()
 
